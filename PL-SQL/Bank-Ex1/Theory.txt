@@ -1,9 +1,0 @@
-# Theory: PL/SQL Control Structures
-
-PL/SQL (Procedural Language/Structured Query Language) is Oracle's procedural extension to SQL that allows developers to combine SQL statements with programming constructs. It supports variables, loops, conditional statements, cursors, and exception handling, making it suitable for implementing business logic inside the database.
-
-Control structures in PL/SQL determine the flow of execution. Common control structures include **IF-THEN**, **IF-THEN-ELSE**, **LOOP**, **WHILE LOOP**, and **FOR LOOP**. These structures allow a program to make decisions and repeatedly execute statements based on specified conditions.
-
-In this exercise, a **FOR loop** is used to iterate through customer and loan records, while **IF statements** are used to check conditions such as customer age, account balance, and loan due dates. The **UPDATE** statement modifies records in the database, and **DBMS_OUTPUT.PUT_LINE** displays reminder messages for customers.
-
-The exercise demonstrates how PL/SQL control structures can be applied in a banking system to automate tasks such as updating loan interest rates for senior citizens, promoting eligible customers to VIP status, and generating loan repayment reminders for customers whose loans are due within the next 30 days.

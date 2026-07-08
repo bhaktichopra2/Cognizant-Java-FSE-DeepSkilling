@@ -1,0 +1,1 @@
+Dependency Injection (DI) is a core feature of the Spring Framework that allows the Spring IoC (Inversion of Control) container to provide the required objects (dependencies) to a class instead of the class creating them itself. This reduces coupling between components and makes applications easier to maintain, test, and extend.
